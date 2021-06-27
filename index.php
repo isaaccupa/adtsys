@@ -21,7 +21,7 @@ while($tbl = mysqli_fetch_array($result)) {
 }
 
 if (!$tblCnt) {
-  echo "Connected successfully.\NThere are no tables<br\n";
+  echo "Connected successfully.\nThere are no tables\n";
 } else {
-  echo "Connected successfully.\nhere are $tblCnt tables<br\n";
+  echo "Connected successfully.\nhere are $tblCnt tables\n";
 }
